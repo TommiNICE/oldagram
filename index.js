@@ -59,7 +59,6 @@ function renderAll() {
 
 }
 
-
 renderMain()
 
 btn.addEventListener("click", function () {
