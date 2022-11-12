@@ -37,14 +37,21 @@ header {
     margin: 0 auto;
 }
 
-.avatar-info {
-    display: flex;
-    align-self: center;
+.container-avatar-img {
+    width: 95%;
+    margin: 0 auto;
+    
 }
 
-.avatar.main {
-    margin-right: 0;
+/* .avatar-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.avatar-main {
+    margin-right: 0;
+} */
 
 .location-text {
     font-weight: lighter;

@@ -32,13 +32,15 @@ const mainSection = document.getElementById("main-section")
 const button = document.getElementById("btn")
 function renderMain() {
     mainSection.innerHTML += `
-                        <div class="avatar-info">
-                            <img class="avatar avatar-main" src="${posts[0].avatar}">
-                            <p>${posts[0].name}<br><span class="location-text">${posts[0].location}</span</p>
-                        </div
-                        <div>
-                            <img class="img-main" src="${posts[0].post}">
-                        </div>  
+                        <div class="container-avatar-img">
+                            <div class="avatar-info">
+                                <img class="avatar avatar-main" src="${posts[0].avatar}">
+                                <p>${posts[0].name}<br><span class="location-text">${posts[0].location}</span</p>
+                            </div
+                            <div>
+                                <img class="img-main" src="${posts[0].post}">
+                            </div>  
+                        </div>
                         <section class="icons-container">
                         <img class="icon" src="images/icon-heart.png" alt="">
                         <img class="icon" src="images/icon-comment.png" alt="">
